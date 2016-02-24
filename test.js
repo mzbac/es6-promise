@@ -6,6 +6,6 @@ p.then(function(val){
     console.log(val);
 })
 setTimeout(function () {
-    p.changeState(1, "sucess");
-    p.resolve();
+    p.changeState(p.State.FULFILLED, "sucess");
+   
 }, 3000);
