@@ -38,6 +38,7 @@ export class Promise {
         //change state
         this.state = state;
         this.value = value;
+        this.resovle();
         return this.state;
 
     }
