@@ -1,6 +1,4 @@
-/**
- * Created by anchen on 2016/2/22.
- */
+
 export class Promise {
 
 
